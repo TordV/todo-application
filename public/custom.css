@@ -1,0 +1,8 @@
+/* Some simple custom css in addition to bootstrap to add a little hover effect for the hamburger menu */
+.toggle {
+  opacity: 50%;
+} 
+
+.toggle:hover {
+  opacity: 100%;
+} 

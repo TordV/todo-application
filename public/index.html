@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do</title>
+    <!-- <link rel="stylesheet" href="bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body class="bg-dark text-white">
+    <div id="root"></div>
+    <!-- <script src="bootstrap.min.js"></script> -->
+    <script language="javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = { isDisabled: true };
+      require('@babel/register')({ extensions: ['.js', '.ts', '.tsx'] });
+      require('../src/index.tsx');
+    </script>
+  </body>
+</html>
